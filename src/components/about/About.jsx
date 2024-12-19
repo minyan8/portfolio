@@ -20,19 +20,18 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Hello! I'm Greg, and I'm based in Johannesburg, South Africa. I studied at Varisty College Sandton, where I completed my diploma in Software Development.<br /><br />
-                            Fastforward to today, and I can honestly say it's been a beautiful journery and I hope to grow even further as Software Engineer. My current focus these days
-                            is on expanidng my portfolio by building more projects that I can add on here, as well as being a great team player at my current role.<br /><br />
-                            Here are a few technologies I’ve been working with recently:
+                            Hi, I'm Yan Min. I am currently pursuing a master's degree in ECE at McMaster.
+                            Alongside my studies, I am doing a research internship at Huawei Noah's Ark Lab. 
+                            My research interests lie in machine learning and computer vision, with a recent focus on 3D gaussian splatting (3DGS).
                         </p>
-                        <ul className="about__list">
+                        {/* <ul className="about__list">
                             <li>JavaScript (ES6+)</li>
                             <li>TypeScript</li>
                             <li>React</li>
                             <li>Node.js</li>
                             <li>Postgres SQL</li>
                             <li>NestJS</li>
-                        </ul>
+                        </ul> */}
                         <button className="btn" onClick={downloadResume}>Donwload CV</button>
                     </div>
 

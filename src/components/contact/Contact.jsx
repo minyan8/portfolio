@@ -80,14 +80,14 @@ const Contact = (props) => {
                         </div>
                     </div>
 
-                    <div className="contact__form-div">
+                    {/* <div className="contact__form-div">
                         <input
                             type="text"
                             className="contact__form-input"
                             placeholder="Insert your subject"
                             onChange={(e) => setSubject(e.target.value)}
                         />
-                    </div>
+                    </div> */}
 
                     <div className="contact__form-div contact__form-area">
                         <textarea
